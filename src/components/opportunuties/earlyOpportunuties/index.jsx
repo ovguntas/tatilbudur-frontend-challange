@@ -4,7 +4,7 @@ import sliderpic from '../../../assets/images/Mask Group 69.png'
 function EarlyOpportunuties() {
     return (
         <EarlyOpportunutiesWrapper>
-            <div className='earlyOpportunutiesWrapper'>
+            <div className='earlyOpportunutiesWrapperContainer'>
                 <div className='showOpportunutiesPart'>
                     <div className='earlyOpportunutiesSlider'>
                         <div className='sliderImage'>

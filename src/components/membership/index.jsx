@@ -1,11 +1,19 @@
 import React from 'react'
+import MembershipForm from './membershipForm'
 import { MembershipWrapper } from './style'
 
 function Memebership() {
   return (
     <MembershipWrapper>
-        <div className="asd">membership</div>
-        <div id="sd">Componenti</div>
+      <div className='membershipContainer'>
+        <div className='membershipLeftImageContainer'>
+          <img src="" alt="" />
+        </div>
+        <div className='membershipContainerBody'>
+          <div className="heading">Üyelere özel indirimlere ve harika fiyatlara erişim sağlayın</div>
+          <MembershipForm/>
+        </div>
+      </div>
     </MembershipWrapper>
   )
 }

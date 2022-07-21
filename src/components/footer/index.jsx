@@ -4,8 +4,12 @@ import { FooterWrapper } from './style'
 function Footer() {
   return (
     <FooterWrapper>
-        <div className="asd">Footer</div>
-        <div id="sd">Componenti</div>
+      <div className='footerContainer'>
+        <div className="footerContainerTop">
+          
+        </div>
+        <div className="footerContainerBottom"></div>
+      </div>
     </FooterWrapper>
   )
 }
