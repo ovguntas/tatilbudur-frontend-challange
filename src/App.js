@@ -7,14 +7,14 @@ import Advertisement from './components/advertisement'
 import Footer from './components/footer'
 function App() {
   return (
-    <div className="App">
+    <>
       <Header />
       <Search />
       <Opportunuties />
-      <Membership />
-      <Advertisement />
+      {/* <Membership /> */}
+      {/* <Advertisement /> */}
       {/* <Footer /> */}
-    </div>
+    </>
   );
 }
 

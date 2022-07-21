@@ -3,6 +3,10 @@ import { SearchWrapper } from './style'
 import OtelIcon from '../../assets/svg/Group 717.svg'
 import PlaneIcon from '../../assets/svg/Group 714.svg'
 import TourIcon from '../../assets/svg/Group 724.svg'
+import LocationIcon from '../../assets/svg/Path 40.svg'
+import Calender from '../../assets/svg/Group 1279.svg'
+import Bed from '../../assets/svg/Group 687.svg'
+import IconAngleDown from '../../assets/svg/Icon awesome-angle-down (1).svg'
 
 function Search() {
   return (
@@ -30,29 +34,29 @@ function Search() {
         </div>
         <div className='filters'>
           {/* filters altındakiler modal açacak */}
-          <div className='filterInputContainer'>
-            <input type="text" placeholder='Otel, Şehir, Bölge veya Tema Adı' id='searchInput' />
+          <div className='filterInputContainer searchHotel'>
+            <input placeholder='Otel, Şehir, Bölge veya Tema Adı' id='searchInput' />
             <div className='filterIcon'>
-              <img src="" alt="" />
+              <img src={LocationIcon} alt="location-icon" />
             </div>
           </div>
-          <div className='filterInputContainer'>
+          <div className='filterInputContainer searchDate'>
+            <div className='filterIcon'>
+              <img src={Calender} alt="calender-icon" />
+            </div>
             <div className='filterModal'>
               Konaklama Tarihi
             </div>
-            <div className='filterIcon'>
-              <img src="" alt="" />
-            </div>
           </div>
-          <div className='filterInputContainer'>
+          <div className='filterInputContainer searchHowMany'>
+            <div className='filterIcon'>
+              <img src={Bed} alt="bed-icon" />
+            </div>
             <div className='filterModal'>
               Kişi Sayısı
             </div>
-            <div className='filterIcon'>
-              <img src="" alt="" />
-            </div>
             <div className='modalOpaner'>
-              <img src="" alt="" />
+              <img src={IconAngleDown} alt="icon-angle-down" />
             </div>
           </div>
           <button>Otel Ara</button>
