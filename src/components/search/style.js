@@ -6,12 +6,18 @@ border: 1px solid #CFD4DA;
 border-radius: 13px;
 margin: 0 auto;
 margin-top: 50px;
+max-width: 1360px;
+height: auto;
+min-height: 230px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
 .searchPart{
     display: flex;
     flex-direction: column;
-    height: 230px;
     justify-content: center;
     gap: 1rem;
+    width: 90%;
     .holidayTypes{
     display: flex;
     padding-left: 55px;
@@ -116,8 +122,12 @@ margin-top: 50px;
         color: #fff;
         border-radius:60px;
     }
-
 }
+@media (max-width:950px){
+        .filters{
+            flex-direction: column;
+        }
+    }
 }
 
 `;
