@@ -11,8 +11,9 @@ function App() {
       <Header />
       <Search />
       <Opportunuties />
-      {/* <Membership /> */}
-      {/* <Advertisement /> */}
+
+      <Membership />
+      <Advertisement />
       {/* <Footer /> */}
     </>
   );

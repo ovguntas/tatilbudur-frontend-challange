@@ -3,6 +3,7 @@ import Logo from '../../assets/svg/logo.svg'
 import IconAngleDown from '../../assets/svg/Icon awesome-angle-down (1).svg'
 import IconHeadphone from "../../assets/svg/Icon feather-headphones.svg"
 import { HeaderWrapper } from './style'
+import MegaMenu from './megaMenu'
 
 
 function Header() {
@@ -39,6 +40,7 @@ function Header() {
           <button className='login'>Giriş Yapın</button>
         </div>
       </nav>
+      {/* <MegaMenu/> */}
     </HeaderWrapper>
   )
 }

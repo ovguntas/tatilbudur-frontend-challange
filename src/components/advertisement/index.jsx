@@ -8,8 +8,12 @@ function Advertisement() {
   return (
     <AdvertisementWrapper>
       <AdvertisementJumbotron />
-      <AdvertisementPartners />
-      <AdvertisementContent />
+      <br />
+      <br />
+      <br />
+      <br />
+      {/* <AdvertisementPartners /> */}
+      {/* <AdvertisementContent /> */}
     </AdvertisementWrapper>
   )
 }

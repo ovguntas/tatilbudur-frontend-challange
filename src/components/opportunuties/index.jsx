@@ -8,8 +8,8 @@ function Opportunuties() {
     <div>
         <EarlyOpportunuties/>
         <SummerOpportunuties/>
-        {/* <Tours/> */}
-        {/* <XyOpportunuties/> */}
+        <Tours/>
+        <XyOpportunuties/>
     </div>
   )
 }
