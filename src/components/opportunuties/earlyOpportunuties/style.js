@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const EarlyOpportunutiesWrapper = styled.div`
     width: 80%;
+    max-width: 1360px;
     border-radius: 13px;
     margin: 0 auto;
     margin-top: 50px;
@@ -59,6 +60,7 @@ export const EarlyOpportunutiesWrapper = styled.div`
             flex-direction: column;
             justify-content: space-between;
             height: 340px;
+            margin-right: 30px;
             .opportunityCard{
                 width:350px;
                 border-radius: 13px;
@@ -207,6 +209,10 @@ export const EarlyOpportunutiesWrapper = styled.div`
         padding: 5px 7px;
         color:#000;
     }
+}
+@media (max-width:950px){
+    min-height: 300px;
+
 }
 .asd{
     background-color: black;

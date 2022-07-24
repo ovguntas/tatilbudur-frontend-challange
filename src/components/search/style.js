@@ -7,6 +7,7 @@ border-radius: 13px;
 margin: 0 auto;
 margin-top: 50px;
 max-width: 1360px;
+/* min-width: ; */
 height: auto;
 min-height: 230px;
 display: flex;
@@ -124,8 +125,21 @@ align-items: center;
     }
 }
 @media (max-width:950px){
+    min-height: 300px;
+    justify-content:flex-start;
+    .holidayTypes{
+        margin-top: 30px;
+        margin-left: -40px;
+    }
         .filters{
             flex-direction: column;
+            gap: 20px;
+            padding-left: 20px;
+            .searchHotel,.searchDate,.searchHowMany{
+                width: 80%;
+                min-width: 275px;
+
+            }
         }
     }
 }

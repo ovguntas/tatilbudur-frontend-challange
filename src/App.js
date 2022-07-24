@@ -10,9 +10,9 @@ function App() {
     <>
       <Header />
       <Search />
-      {/* <Opportunuties /> */}
-      {/* <Membership /> */}
-      {/* <Advertisement /> */}
+      <Opportunuties />
+      <Membership />
+      <Advertisement />
       {/* <Footer /> */}
     </>
   );
