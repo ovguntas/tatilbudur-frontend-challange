@@ -4,6 +4,7 @@ export const XyOpportunutiesWrapper = styled.div`
 margin: 0 auto;
 margin-top: 50px;
 width: 80%;
+max-width: 1360px;
 height: 460px;
 display: flex;
 flex-direction: column;

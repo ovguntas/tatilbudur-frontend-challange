@@ -8,6 +8,7 @@ margin-top: 50px;
     border-radius: 26px;
     background-color: #E2F2FA;
     display: flex;
+    max-width: 1360px;
     margin: 0 auto;
     justify-content: space-around;
     align-items: center;

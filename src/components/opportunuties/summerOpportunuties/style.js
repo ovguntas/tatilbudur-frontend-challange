@@ -4,6 +4,7 @@ export const SummerOpportunutiesWrapper = styled.div`
     width: 90%;
     background: #F6F5F8 0% 0% no-repeat padding-box;
     border-radius: 26px;
+    max-width: 1360px;
     margin: 0 auto;
     margin-top: 50px;
     .SummerOpportunutiesWrapperContainer{
